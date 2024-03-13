@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "sss",
+    "ses",
+    "sss"
+  ],
+  "key": {
+    "e": {
+      "item": "minecraft:egg"
+    },
+    "s": {
+      "item": "puyoapple:apple_slice"
+    }
+  },
+  "result": {
+    "item": "puyoapple:apple_spawn_egg"
+  }
+}

@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "puyoapple",
+	"version": "${version}",
+	"name": "Puyoapple",
+	"description": "Yippie!",
+	"authors": [
+		"Strubbelkopp"
+	],
+	"contact": {
+		"sources": "https://github.com/Strubbelkopp/PuyoApple",
+		"issues": "https://github.com/Strubbelkopp/PuyoApple/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/puyoapple/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.strubbelkopp.puyoapple.PuyoApple"
+		],
+		"client": [
+			"dev.strubbelkopp.puyoapple.client.PuyoAppleClient"
+		]
+	},
+	"mixins": [
+		"puyoapple.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
